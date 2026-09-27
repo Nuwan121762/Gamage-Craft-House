@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gamage Craft House - craft items, craft materials, fabric, cloth, sewing accessories and creative supplies in Sri Lanka.">
+  <meta name="theme-color" content="#8f5f57">
+  <title>Gamage Craft House | Craft Materials, Fabric & Sewing Accessories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="loader-mark">G</div><span>Gamage Craft House</span></div>
+
+  <div class="announcement">Welcome to Gamage Craft House <span>•</span> Quality Craft & Sewing Supplies <span>•</span> WhatsApp Orders: +94 740 788 133</div>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand" aria-label="Gamage Craft House home">
+        <span class="brand-icon">✿</span>
+        <span><strong>Gamage</strong><small>CRAFT HOUSE</small></span>
+      </a>
+      <nav id="mainNav" class="nav">
+        <a href="#home">Home</a><a href="#shop">Shop</a><a href="#categories">Categories</a>
+        <a href="#shop" data-cat-link="Craft Item">Craft Items</a>
+        <a href="#shop" data-cat-link="Craft Material">Craft Materials</a>
+        <a href="#shop" data-cat-link="Fabric">Fabric & Cloth</a>
+        <a href="#shop" data-cat-link="Sewing Accessories">Sewing Accessories</a>
+        <a href="#about">About Us</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchFocus" aria-label="Search">⌕</button>
+        <button class="icon-btn" id="wishlistBtn" aria-label="Wishlist">♡<b id="wishCount">0</b></button>
+        <button class="icon-btn cart-btn" id="cartBtn" aria-label="Shopping cart">🛒<b id="cartCount">0</b></button>
+        <button class="hamburger" id="menuBtn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-shape"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">CREATE • SEW • DECORATE</span>
+          <h1>Everything You Need to <em>Create Something Beautiful</em></h1>
+          <p>Discover craft items, craft materials, fabrics, sewing accessories and creative supplies at Gamage Craft House.</p>
+          <div class="hero-buttons"><a class="btn primary" href="#shop">Shop Now <span>→</span></a><a class="btn ghost" href="#categories">Explore Categories</a></div>
+          <div class="hero-trust"><span>✓ Quality products</span><span>✓ Easy WhatsApp ordering</span><span>✓ Sri Lankan store</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-card main"><img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1000&q=85" alt="Craft supplies and sewing materials"></div>
+          <div class="floating-card"><span>✦</span><strong>Made for makers</strong><small>Craft • Fabric • Sewing</small></div>
+          <div class="mini-card"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=400&q=80" alt="Colorful craft supplies" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="container">
+        <div class="section-head"><div><span class="eyebrow">SHOP BY CATEGORY</span><h2>Find what inspires you</h2></div><p>From handmade creations to everyday sewing essentials, explore our growing collection.</p></div>
+        <div class="category-grid">
+          <article class="category-card" data-category="Craft Item"><div class="cat-img"><img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=80" alt="Craft items" loading="lazy"></div><div><span class="cat-number">01</span><h3>Craft Item</h3><p>Beautiful handmade and decorative craft creations.</p><button class="text-btn category-shop">Shop Now →</button></div></article>
+          <article class="category-card" data-category="Craft Material"><div class="cat-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&q=80" alt="Craft materials" loading="lazy"></div><div><span class="cat-number">02</span><h3>Craft Material</h3><p>Everything you need for your next creative project.</p><button class="text-btn category-shop">Shop Now →</button></div></article>
+          <article class="category-card" data-category="Fabric"><div class="cat-img"><img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=700&q=80" alt="Fabric" loading="lazy"></div><div><span class="cat-number">03</span><h3>Fabric</h3><p>Beautiful fabrics for crafts, sewing and decoration.</p><button class="text-btn category-shop">Shop Now →</button></div></article>
+          <article class="category-card" data-category="Cloth"><div class="cat-img"><img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=700&q=80" alt="Cloth" loading="lazy"></div><div><span class="cat-number">04</span><h3>Cloth</h3><p>Quality cloth for creative and sewing projects.</p><button class="text-btn category-shop">Shop Now →</button></div></article>
+          <article class="category-card" data-category="Sewing Accessories"><div class="cat-img"><img src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=700&q=80" alt="Sewing accessories" loading="lazy"></div><div><span class="cat-number">05</span><h3>Sewing Accessories</h3><p>Threads, needles, buttons, ribbons and more.</p><button class="text-btn category-shop">Shop Now →</button></div></article>
+          <article class="category-card" data-category="Other"><div class="cat-img"><img src="https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?auto=format&fit=crop&w=700&q=80" alt="Other craft supplies" loading="lazy"></div><div><span class="cat-number">06</span><h3>Other</h3><p>Discover useful products and creative supplies.</p><button class="text-btn category-shop">Shop Now →</button></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="section shop-section">
+      <div class="container">
+        <div class="section-head"><div><span class="eyebrow">OUR COLLECTION</span><h2>Featured Products</h2></div><p>Shop our selection of craft, fabric and sewing essentials.</p></div>
+        <div class="shop-tools">
+          <div class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Search products, materials, thread..."></div>
+          <select id="categoryFilter"><option value="All">All Categories</option><option>Craft Item</option><option>Craft Material</option><option>Fabric</option><option>Cloth</option><option>Sewing Accessories</option><option>Other</option></select>
+          <select id="priceFilter"><option value="All">Any Price</option><option value="0-500">Under Rs. 500</option><option value="500-1000">Rs. 500 - Rs. 1,000</option><option value="1000-2500">Rs. 1,000 - Rs. 2,500</option><option value="2500-5000">Rs. 2,500 - Rs. 5,000</option><option value="5000+">Above Rs. 5,000</option></select>
+          <select id="sortFilter"><option value="featured">Featured</option><option value="newest">Newest</option><option value="popular">Popular</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option></select>
+        </div>
+        <div id="productGrid" class="product-grid"></div>
+        <div id="emptyProducts" class="empty-state hidden">No products match your search. Try another category or keyword.</div>
+      </div>
+    </section>
+
+    <section class="promo-section"><div class="container promo-grid">
+      <div class="promo"><span class="promo-icon">✦</span><div><small>SPECIAL OFFER</small><h3>20% OFF Craft Materials</h3><p>Stock up on creative essentials.</p></div><button class="btn light" data-promo="Craft Material">Shop Offers</button></div>
+      <div class="promo dark"><span class="promo-icon">✂</span><div><small>SEWING WEEK</small><h3>15% OFF Sewing Accessories</h3><p>Threads, needles, buttons & more.</p></div><button class="btn light" data-promo="Sewing Accessories">Shop Offers</button></div>
+    </div></section>
+
+    <section class="section alt"><div class="container">
+      <div class="section-head"><div><span class="eyebrow">FRESH IDEAS</span><h2>New Arrivals</h2></div><p>Fresh products for your next creative project.</p></div>
+      <div id="newGrid" class="product-grid compact"></div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-head"><div><span class="eyebrow">CUSTOMER FAVOURITES</span><h2>Best Sellers</h2></div><p>Popular picks from Gamage Craft House.</p></div>
+      <div id="bestGrid" class="product-grid compact"></div>
+    </div></section>
+
+    <section class="why"><div class="container"><div class="section-head center"><div><span class="eyebrow">WHY US</span><h2>Why Choose Gamage Craft House?</h2></div></div>
+      <div class="why-grid"><div class="why-card"><span>◇</span><h3>Quality Products</h3><p>Carefully selected craft and sewing supplies.</p></div><div class="why-card"><span>✦</span><h3>Creative Selection</h3><p>Products for makers, artists, hobbyists and small businesses.</p></div><div class="why-card"><span>◉</span><h3>Easy Ordering</h3><p>Order easily through WhatsApp from anywhere in Sri Lanka.</p></div><div class="why-card"><span>♡</span><h3>Friendly Service</h3><p>We are happy to help with your craft needs.</p></div></div>
+    </div></section>
+
+    <section id="about" class="section about"><div class="container about-grid">
+      <div class="about-img"><img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1000&q=85" alt="Craft workspace at Gamage Craft House" loading="lazy"><span class="about-badge">CRAFTED WITH CARE</span></div>
+      <div class="about-copy"><span class="eyebrow">OUR STORY</span><h2>About Gamage Craft House</h2><p>Welcome to Gamage Craft House.</p><p>We provide craft items, craft materials, fabrics, cloth, sewing accessories and other creative supplies for makers, artists, hobbyists and small businesses.</p><p>Our goal is to make quality creative materials easy to find and easy to order.</p><a class="btn primary" href="#contact">Talk to Us</a></div>
+    </div></section>
+
+    <section class="contact-strip"><div class="container contact-info-grid">
+      <div><span class="eyebrow">VISIT OR ORDER</span><h2>Gamage Craft House</h2><p>Near Police Station,<br>Karandeniya, Sri Lanka</p></div>
+      <div><strong>Phone / WhatsApp</strong><a href="tel:+94740788133">+94 740 788 133</a></div>
+      <div class="contact-actions"><a class="btn light" href="tel:+94740788133">Call Now</a><a class="btn whatsapp" href="https://wa.me/94740788133" target="_blank" rel="noopener">WhatsApp Us</a></div>
+    </div></section>
+
+    <section id="contact" class="section"><div class="container contact-grid">
+      <div><span class="eyebrow">GET IN TOUCH</span><h2>We'd love to hear from you</h2><p>Have a product question or need help choosing materials? Send us a message.</p>
+        <div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="YouTube">▶</a><a href="https://wa.me/94740788133" target="_blank" rel="noopener" aria-label="WhatsApp">◔</a></div>
+      </div>
+      <form id="contactForm" class="form-card"><label>Name<input required name="name" placeholder="Your name"></label><label>Email<input required type="email" name="email" placeholder="you@example.com"></label><label>Phone<input name="phone" placeholder="+94..."></label><label>Message<textarea required name="message" rows="4" placeholder="How can we help?"></textarea></label><button class="btn primary" type="submit">Send Message</button></form>
+    </div></section>
+
+    <section class="newsletter"><div class="container newsletter-inner"><div><span class="eyebrow">STAY INSPIRED</span><h2>Get new arrivals & special offers</h2><p>Join our updates for new craft materials, products and offers.</p></div><form id="newsletterForm"><input type="email" required placeholder="Enter your email" aria-label="Email address"><button class="btn dark-btn">Subscribe</button></form></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-grid">
+    <div><a class="brand footer-brand" href="#home"><span class="brand-icon">✿</span><span><strong>Gamage</strong><small>CRAFT HOUSE</small></span></a><p>Everything You Need to Create Something Beautiful.</p></div>
+    <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#about">About Us</a><a href="#contact">Contact</a></div>
+    <div><h4>Categories</h4><a href="#shop">Craft Item</a><a href="#shop">Craft Material</a><a href="#shop">Fabric</a><a href="#shop">Cloth</a><a href="#shop">Sewing Accessories</a></div>
+    <div><h4>Customer Support</h4><a href="#">Shipping Information</a><a href="#">Returns</a><a href="#">Privacy Policy</a><a href="#">Terms & Conditions</a><a href="tel:+94740788133">+94 740 788 133</a></div>
+  </div><div class="container copyright">© 2026 Gamage Craft House. All Rights Reserved.</div></footer>
+
+  <button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+
+  <aside id="cartPanel" class="side-panel" aria-label="Shopping cart"><div class="panel-head"><h2>Your Cart</h2><button class="close-panel" data-close="cartPanel">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-footer"><div><span>Subtotal</span><strong id="cartTotal">Rs. 0</strong></div><button id="checkoutBtn" class="btn primary full">Proceed to Checkout</button><button id="cartWhatsApp" class="btn whatsapp full">Order Cart via WhatsApp</button></div></aside>
+  <aside id="wishPanel" class="side-panel" aria-label="Wishlist"><div class="panel-head"><h2>Wishlist</h2><button class="close-panel" data-close="wishPanel">×</button></div><div id="wishItems" class="cart-items"></div></aside>
+  <div id="overlay" class="overlay"></div>
+
+  <div id="productModal" class="modal"><div class="modal-box product-modal"><button class="modal-close" data-close="productModal">×</button><div id="productDetail"></div></div></div>
+
+  <div id="checkoutModal" class="modal"><div class="modal-box checkout-box"><button class="modal-close" data-close="checkoutModal">×</button><span class="eyebrow">SECURE CHECKOUT</span><h2>Complete Your Order</h2><div class="checkout-layout"><form id="checkoutForm" class="form-card"><label>Full Name<input required name="name"></label><label>Phone Number<input required name="phone"></label><label>WhatsApp Number<input name="whatsapp"></label><label>Email<input type="email" name="email"></label><label>Delivery Address<textarea required name="address" rows="3"></textarea></label><div class="two"><label>City<input required name="city"></label><label>Postal Code<input name="postal"></label></div><fieldset><legend>Payment Method</legend><label class="radio"><input type="radio" name="payment" value="Cash on Delivery" checked> Cash on Delivery</label><label class="radio"><input type="radio" name="payment" value="Bank Transfer"> Bank Transfer</label><label class="radio"><input type="radio" name="payment" value="Online Payment"> Online Payment</label></fieldset><button class="btn primary full" type="submit">Place Order</button></form><div id="checkoutSummary" class="summary-card"></div></div></div></div>
+
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
